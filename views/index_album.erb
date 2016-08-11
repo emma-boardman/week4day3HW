@@ -1,0 +1,10 @@
+<h2>Albums in Music Library</h2>
+
+<% @albums.each do |album| %>
+  <b>Album Name:</b>
+  <p><%= album.name() %></p>
+  <b>Album ID:</b>
+  <p><%= album.id() %></p>
+  <hr>
+<% end %>
+

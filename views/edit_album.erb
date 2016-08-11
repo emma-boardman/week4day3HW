@@ -1,0 +1,9 @@
+<h1>Edit an Album</h1>
+
+<form action="//<%= @album.id  %>" method="post">
+  
+  <label for="album_name">Album Name:</label>
+  <input type="text" name="album_name" value="<%= @album.name  %>">
+
+    <input type='submit' value="Update Album">
+  </form>

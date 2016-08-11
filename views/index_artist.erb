@@ -1,0 +1,10 @@
+<h2>Artists in Music Library</h2>
+
+<% @artists.each do |artist| %>
+  <b>Artist Name:</b>
+  <p><%= artist.name() %></p>
+  <b>Artist ID:</b>
+  <p><%= artist.id() %></p>
+  <hr>
+<% end %>
+
